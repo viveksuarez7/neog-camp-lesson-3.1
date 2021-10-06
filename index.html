@@ -5,13 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS Way 1 :Style TAG*/
+        /* body{
+            color: red;
+        } */
+    </style>
+    //Third way of calling Css - StyleSheet
+    <link rel="stylesheet" href="style.css">
     <title>Component Library</title>
 </head>
 
 <body>
 
-    <h1>Vivek's Component Library</h1>
-    <p>I am attending neog.camp and i will make a Library that will make all my projects look good and consistent.</p>
+    <!-- CSS way 2 -->
+    <!-- style="color:red" -->
+    <h1 id="lib-header">Vivek's Component Library</h1>
+    <p class="para">I am attending neog.camp and i will make a Library that will make all my projects look good and
+        consistent.</p>
 
     <hr>
 
@@ -27,7 +38,7 @@
     <h2>@containers</h2>
 
     <h3>Fluid Containers</h3>
-    <div>This is a fluid conatiner and it will go to the end of the page</div>
+    <div class="para">This is a fluid conatiner and it will go to the end of the page</div>
 
 
     <h3>Fluid Containers</h3>
@@ -67,7 +78,53 @@
 
     <h2>@nav</h2>
 
+    <div>I am Player</div>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/">Products</a>
+        </li>
+        <li>
+            <a href="/">About</a>
+        </li>
+    </ul>
+    <hr>
 
+    <h2>@Headers</h2>
+
+    <header>
+        <img src="resources/goal.svg" />
+        <h1>Heading inside hero</h1>
+    </header>
+
+    <hr>
+
+    <h2>@Sections</h2>
+
+    <section>
+        <h3>White Section</h3>
+
+        <p>Hey this is a section</p>
+
+    </section>
+    <section>
+        <h3>Off White Section</h3>
+
+        <p>Hey this is another section</p>
+
+    </section>
+
+    <hr>
+
+    <h2>@Footer</h2>
+    <footer>
+        <div>A header inside footer</div>
+        <li>a</li>
+        <li>B</li>
+        <li>C</li>
+    </footer>
 
 </body>
 
