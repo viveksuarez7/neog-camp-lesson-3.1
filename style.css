@@ -2,6 +2,8 @@
 
 :root{
     --primary-color:red;
+    --dark-grey:#6B7280;
+
 }
 hr{
     margin: 2.5rem 0rem;
@@ -45,6 +47,7 @@ border: 1px solid var(--primary-color);
     padding: 0rem 0.5rem;
 
 }
+/**Navigation**/
 .navigation{
     background-color: var(--primary-color);
     color: white;
@@ -65,4 +68,23 @@ border: 1px solid var(--primary-color);
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+max-width: 350px;
+display: block;
+margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color:var(--dark-grey);
+    text-align: center;
+}
+.hero .hero-heading .hero-inv{
+    color: var(--primary-color);
 }
