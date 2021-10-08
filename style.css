@@ -3,7 +3,7 @@
 :root{
     --primary-color:red;
     --dark-grey:#6B7280;
-
+    --off-white:#F3F4F6;
 }
 hr{
     margin: 2.5rem 0rem;
@@ -69,7 +69,7 @@ border: 1px solid var(--primary-color);
 .navigation .link-active{
     font-weight: bold;
 }
-
+/**Header**/
 .hero{
     padding: 2rem;
 }
@@ -87,4 +87,17 @@ margin: auto;
 }
 .hero .hero-heading .hero-inv{
     color: var(--primary-color);
+}
+
+/**Section**/
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+    
+    
+}
+.ow{
+    background-color: var(--off-white);
 }
