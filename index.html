@@ -1,139 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-
-    </style>
-
-    <link rel="stylesheet" href="style.css">
-    <title>Component Library</title>
+    <title>The Football Site Homepage</title>
+    <link href="style.css" rel="stylesheet"/>
+    
 </head>
-
 <body>
+        <nav class="navigation container">
+            <div class="nav-player">Total Football</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link link-active" href="/">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">Products</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">About</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="hero">
+            <img class="hero-img" src="/resources/goal.svg" />
+            <h1 class="hero-heading">The <span class="hero-inv">Football</span> Website</h1>
+        </header>
 
-    <!-- CSS way 2 -->
-    <!-- style="color:red" -->
-    <h1>Vivek's Component Library</h1>
-    <p>I am attending neog.camp and i will make a Library that will make all my projects look good and
-        consistent.</p>
+        <section class="section ow">
+            <div class="containers containers-centres">
+                <h1>What we do ?</h1>
+                <p>We provide our users with amazing football content.Fullfilling your Daily Dose of Football.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="containers containers-centres">
+                <h1>The Websites you can access</h1>
+                <p>Our websites include BR Football,Goal.com,Champions League and many more to be added soon.</p>
+                    <ul class="social-links list-non-bullet">
+                        <li class="list-item-inline"><a class=" link link-primary" href="https://www.instagram.com/brfootball/" target="_blank">BR Football</a></li>
+                        <li class="list-item-inline"><a class=" link link-primary" href="https://www.goal.com/en-in" target="_blank">Goal</a></li>
+                        <li class="list-item-inline"><a class=" link link-primary" href="https://www.uefa.com/uefachampionsleague/" target="_blank">Champions League</a></li>
+                    </ul>
 
-
-    <hr>
-
-    <h2>@Typography</h2>
-
-    <h1>This is the biggest text.</h1>
-    <h2>This is a second biggest text.</h2>
-    <p>Let me show you a normal text.</p>
-    <p>This is a <strong>bold</strong> paragraph.</p>
-    <small>Let me show you a relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>Fluid Containers</h3>
-    <div class="containers">This is a fluid conatiner and it will go to the end of the page</div>
-
-
-    <h3>Centre Containers</h3>
-    <div class="containers containers-centres">This is a centerd conatiner and it will go only to the specificed width
-    </div>
-
-    <hr>
-
-    <h2>@Links</h2>
-    <a class=" link link-primary" href="/">Primary</a>
-    <a class="link link-secondary" href="/">Secondary</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-    <h3>Unorderd List</h3>
-    <p>This list will not have bullets</p>
-    <ul class="list-non-bullet">
-        <li>Liverpool</li>
-        <li>Real</li>
-        <li>Milan</li>
-    </ul>
-
-    <h3>Unorderd Inline List</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Salah</li>
-        <li class="list-item-inline">Mane</li>
-        <li class="list-item-inline">Jota</li>
-    </ul>
-
-    <h3>Reversed OrderedList</h3>
-    <ol reversed>
-        <li>Job 1</li>
-        <li>Job 2</li>
-        <li>Job 3</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
-    <nav class="navigation container">
-        <div class="nav-player">I am Player</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">Products</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/">About</a>
-            </li>
-        </ul>
-    </nav>
-    <hr>s
-
-    <h2>@Headers</h2>
-
-    <header class="hero">
-        <img class = "hero-img" src="resources/goal.svg" />
-        <h1 class="hero-heading">The <span class="hero-inv">Football</span> Website</h1>
-    </header>
-
-    <hr>
-
-    <h2>@Sections</h2>
-
-    <section class="section">
-        <div class="containers containers-centres">
-            <h1>White Section</h1>
-            <p>Hey this is a section</p>
-        </div>
-        
-
-    </section>
-    <section class="section ow">
-        <div class="containers containers-centres">
-            <h1>Off White Section</h1>
-            <p>Hey this is another section</p>
-        </div>
-    </section>
-
-    <hr>
-
-    <h2>@Footer</h2>
-    <footer class="footer">
-        <div class="footer-header">A header inside footer</div>
-        <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="/">Social One</a></li class="list-item-inline">
-            <li class="list-item-inline"><a class="link" href="/">Social Two</a></li class="list-item-inline">
-            <li class="list-item-inline"><a class="link" href="/">Social Three</a></li>
-        </ul>
-        
-    </footer>
-
+            </div>
+        </section>
+        <section class="section ow">
+            <div class="containers containers-centres">
+                <h1>Follow some of Favourite Players  on Instagram</h1>
+                <ul class="social-links list-non-bullet">
+                    <li class="list-item-inline"><a class=" link link-primary" href="https://www.instagram.com/leomessi/"
+                            target="_blank">Lionel Messi</a></li>
+                    <li class="list-item-inline"><a class=" link link-primary" href="https://www.instagram.com/cristiano/"
+                            target="_blank">Cristiano Ronaldo</a></li>
+                    <li class="list-item-inline"><a class=" link link-primary" href="https://www.instagram.com/mosalah/"
+                            target="_blank">Mo Salah</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-header">Follow me on my Social Media Platform's</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline"><a class="link" href="https://github.com/viveksuarez7" target="_blank">Github</a></li>
+                <li class="list-item-inline"><a class="link" href="https://www.instagram.com/_vivek_singh7/" target="_blank"">Instagram</a></li>
+                <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/vivek-singh-180262178/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </footer>
 </body>
-
 </html>

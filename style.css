@@ -96,8 +96,12 @@ margin: auto;
 }
 .section h1{
     text-align: center;
-    
-    
+}
+
+.section  ul{
+    text-align: center;
+      padding-inline-start: 0px;
+      padding-top: 1.5rem;
 }
 .ow{
     background-color: var(--off-white);
@@ -115,7 +119,10 @@ margin: auto;
     color:white;
 
 }
-
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer ul{
         padding-inline-start: 0px;
 }
